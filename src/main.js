@@ -6,3 +6,6 @@ let config = {
 };
 
 let game = new Phaser.Game(config);
+
+//keyboard variables
+let keyF, keyLEFT, keyRIGHT;
