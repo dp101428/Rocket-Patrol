@@ -111,11 +111,7 @@ class Play extends Phaser.Scene{
             rocket.height + rocket.y > ship.y){
             return true;
         }
-        //no else necessary, but tutorial has it
-        //if it is actually necessary then JS is worse than I thought
-        else{
-            return false;
-        }
+        return false;
     }
 
     shipExplode(ship){
