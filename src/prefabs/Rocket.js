@@ -30,8 +30,7 @@ class Rocket extends Phaser.GameObjects.Sprite {
         }
         //if we didn't hit, reset rocket if hit ceiling
         if(this.y <= 108){
-            this.isFiring = false;
-            this.y = 431;
+            this.reset();
         }
     }
 
